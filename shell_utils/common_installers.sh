@@ -27,11 +27,11 @@ function install_wp-cli () {
     
 }
 
-function install geoip() {
+install_geoip() {
     sudo apt install -y geoip-bin geoip-database libgeoip-dev
 }
 
-function install ncurses() {
+install_ncurses() {
     sudo apt install -y libncurses5 libncurses5-dev libncursesw5 libncursesw5-dev
 }
 
@@ -44,6 +44,7 @@ function install_goaccess () {
     ./configure --enable-utf8 --enable-geoip=legacy
 
 }
+
 
 
 

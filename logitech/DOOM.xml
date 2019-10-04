@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+  <profile lastplayeddate="2016-05-17T16:22:11" lock="0" name="DOOM" gpasupported="0" guid="{16F9CEA9-BE2D-44F4-BCCD-25FCE5F430EA}" gameid="" gkeysdk="0" launchable="1">
+    <description>DOOM (2016)</description>
+    <target path="F:\GAMES\STEAM\STEAMAPPS\COMMON\DOOM\DOOMX64.EXE"/>
+    <signature value="InstallLocation" executable="DOOMX64.EXE" name="" key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 379720"/>
+    <macros>
+      <macro original="true" color="4278242815" name="Left Click" hidden="false" guid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="leftclick"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278242815" name="Right Click" hidden="false" guid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278242815" name="Middle Click" hidden="false" guid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="middleclick"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278242815" name="Back" hidden="false" guid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="back"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278242815" name="Forward" hidden="false" guid="{8B13562D-60F2-460F-9588-8C84168C81BC}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="forward"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278242815" name="DPI Down" hidden="false" guid="{12C9716B-4D7A-4F6F-AF20-A0369219119A}" devicecategory="Logitech.Gaming.Mouse">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpidown"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278242815" name="DPI Up" hidden="false" guid="{68A1C0B2-2996-4992-9CC5-3285AC8E9740}" devicecategory="Logitech.Gaming.Mouse">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpiup"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278242815" name="DPI Shift" hidden="false" guid="{A1FEC5BC-9A8A-49C5-B085-0E2EDCEF1F55}" devicecategory="Logitech.Gaming.Mouse">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpishift"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278228735" name="Left Click" hidden="true" guid="{86F6A7EF-FEEF-4B1D-95AE-5A78913EA8E1}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="leftclick"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278228735" name="Right Click" hidden="true" guid="{E5164FB1-B7E5-47E3-93B2-F8F89F625147}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278228735" name="Middle Click" hidden="true" guid="{09F3486A-FFA8-4B53-9476-4CE2723F2442}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="middleclick"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278228735" name="Back" hidden="true" guid="{1C1F8630-E73F-4FB7-BAFF-5CBAB3E04D3F}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="back"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278228735" name="Forward" hidden="true" guid="{9B72357F-8309-4986-9592-68F6C0EE0096}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="forward"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278228735" name="DPI Down" hidden="true" guid="{D4976BE8-5218-4B26-A799-C00B7E8DB62D}" devicecategory="Logitech.Gaming.Mouse">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpidown"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278228735" name="DPI Up" hidden="true" guid="{BDC5C439-FD42-42FF-83D4-4FF60CC327B9}" devicecategory="Logitech.Gaming.Mouse">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpiup"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278246655" name="DPI Shift" hidden="true" guid="{539AA7BB-C000-4391-AE53-4C560CCD4656}" devicecategory="Logitech.Gaming.Mouse">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpishift"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4286578943" name="Move Forward" hidden="false" guid="{8BA71C1F-3249-4931-AD80-42071DACA3BF}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="W"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4286578943" name="Move Backward" hidden="false" guid="{C18EEEBC-6F9B-4767-AC24-07B18C0E1D63}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="S"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4286578943" name="Strafe Left" hidden="false" guid="{1D112A1A-40AB-43FB-A1E0-7D61DAFBAD92}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="A"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4286578943" name="Strafe Right" hidden="false" guid="{5B869360-7D52-4065-A216-F14139EBD33A}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="D"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4286578943" name="Jump/Double Jump" hidden="false" guid="{1F4F9A9B-05FD-4B21-9E4F-D69927DC7C3D}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="SPACEBAR"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4286578943" name="Crouch" hidden="false" guid="{627A531E-AD92-49EC-B4E8-FB177F0308EE}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="C"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4278246655" name="Mouse" hidden="false" guid="{8AE557B2-4775-4BC2-9877-DD627CE43692}">
+        <mouse xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Mouse"/>
+      </macro>
+      <macro original="true" color="4278233568" name="Mission Information" hidden="false" guid="{710AA9E5-FB42-49DE-87E6-DDC105A5270D}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LALT"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="BFG" hidden="false" guid="{8B9B3E1D-9072-4B55-BA3F-B3722E9ABB14}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="T"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Chaingun" hidden="false" guid="{64EE44E9-048D-4928-959C-F7386685882B}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="8"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4278228735" name="Battery Level (G602)" hidden="false" guid="{6D61CD2B-2B8A-403C-87FE-CD8A31BADA00}" devicecategory="Logitech.Gaming.Mouse">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="batterylevel"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278242815" name="Switch Profile" hidden="false" guid="{4C52B052-6795-4E0F-8EB5-F36B1E3C44C6}" devicecategory="Logitech.Gaming.Mouse">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="switchprofile"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278242815" name="Scroll Left" hidden="false" guid="{75FE044D-A7AC-492D-8B75-872E6B53CDCB}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="scrollleft"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278242815" name="Scroll Right" hidden="false" guid="{36C81D73-EBBA-48F9-8373-FA473937B6A7}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="scrollright"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4278228735" name="Battery Level (G602)" hidden="true" guid="{F312F406-BE0C-4662-8214-30AC857DBA2E}" devicecategory="Logitech.Gaming.Mouse">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="batterylevel"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" color="4294922240" name="Chainsaw" hidden="false" guid="{25F3F2A2-B5D4-4F2D-B3FA-E02F924276FB}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="G"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Combat Shotgun" hidden="false" guid="{844D2794-C7D7-43B0-B070-87C94E9CDB1C}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="2"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Gauss Cannon" hidden="false" guid="{C5F4811C-96A3-45A4-8B38-89C4762B16F8}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="7"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Heavy Assault Rifle" hidden="false" guid="{D2D58CEF-D656-47BD-A630-920D7DBA3DB0}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="4"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Melee/Glory Kill" hidden="false" guid="{67D48C35-0CF8-4C2E-B5A8-F89C296E4375}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="F"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Next Weapon" hidden="false" guid="{04A9E10B-17D1-42DC-B878-05C2A6C3B7CD}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="X"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Next Equipment" hidden="false" guid="{4C4693BD-25BD-4B98-8A52-83BC39495537}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="F1"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Pistol" hidden="false" guid="{B734B8B0-5F63-471B-9D92-21005E50BE83}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="1"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Plasma Rifle" hidden="false" guid="{261C24CA-E1A1-4616-8EE3-B55D0501116C}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="3"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Previous Equipment" hidden="false" guid="{38E34848-2E14-46EE-A1BF-6AFCF83F0833}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="F2"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Previous Weapon" hidden="false" guid="{7C602357-019D-4BAD-B33C-3606E4D3FB4A}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="Z"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Rocket Launcher" hidden="false" guid="{266419B4-D099-4F95-B324-B217EF3E3954}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="5"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Super Shotgun" hidden="false" guid="{90B7914B-1C15-41FD-806C-CC86A7972AC2}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="6"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Switch Weapon Mod" hidden="false" guid="{D0D2429F-8F21-4D02-9DBF-60DC8E0E1FD6}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="R"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Switch Weapon/Weapon Wheel (Hold)" hidden="false" guid="{2B116111-8420-4F9A-A6F9-892EAE5669A2}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="Q"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Use" hidden="false" guid="{C523D567-7441-4F81-B972-07085CEB5783}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="E"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4294922240" name="Use Equipment" hidden="false" guid="{A65A77A6-B9B4-42CE-90D1-12A88B843A54}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LCTRL"/>
+        </keystroke>
+      </macro>
+      <macro original="true" color="4286578943" name="Walk" hidden="false" guid="{9E69105D-EE3E-4B74-A6A9-EC77B76ED38F}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LSHIFT"/>
+        </keystroke>
+      </macro>
+      <macro color="4278246655" name="1" hidden="true" guid="{638E7B38-5C4E-44E8-A313-8E0B9A89148F}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="1"/>
+        </keystroke>
+      </macro>
+      <macro color="4278246655" name="1" hidden="false" guid="{DA1135BD-7B0F-4D82-8D71-F330E1E694D3}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="1"/>
+        </keystroke>
+      </macro>
+      <macro color="4278246655" name="2" hidden="true" guid="{F0C08F5C-E63E-4CB7-BA04-08018B56F295}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="2"/>
+        </keystroke>
+      </macro>
+      <macro color="4278246655" name="2" hidden="false" guid="{B803D1AD-E6C0-407A-BC85-9FF5C50DF238}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="2"/>
+        </keystroke>
+      </macro>
+      <macro color="4278246655" name="3" hidden="true" guid="{B971A038-54AE-4315-80D7-E1FDE6F1AF5E}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="3"/>
+        </keystroke>
+      </macro>
+      <macro color="4278246655" name="3" hidden="false" guid="{1E9AB5F8-4163-4567-8CDA-8893614F2BCF}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="3"/>
+        </keystroke>
+      </macro>
+    </macros>
+    <assignments devicecategory="Logitech.Gaming.LeftHandedController">
+      <assignment macroguid="{8BA71C1F-3249-4931-AD80-42071DACA3BF}" original="true" shiftstate="1" backup="false" contextid="G4"/>
+      <assignment macroguid="{C18EEEBC-6F9B-4767-AC24-07B18C0E1D63}" original="true" shiftstate="1" backup="false" contextid="G11"/>
+      <assignment macroguid="{1D112A1A-40AB-43FB-A1E0-7D61DAFBAD92}" original="true" shiftstate="1" backup="false" contextid="G10"/>
+      <assignment macroguid="{5B869360-7D52-4065-A216-F14139EBD33A}" original="true" shiftstate="1" backup="false" contextid="G12"/>
+      <assignment macroguid="{1F4F9A9B-05FD-4B21-9E4F-D69927DC7C3D}" original="true" shiftstate="1" backup="false" contextid="G22"/>
+      <assignment macroguid="{9E69105D-EE3E-4B74-A6A9-EC77B76ED38F}" original="true" shiftstate="1" backup="false" contextid="G15"/>
+      <assignment macroguid="{627A531E-AD92-49EC-B4E8-FB177F0308EE}" original="true" shiftstate="1" backup="false" contextid="G18"/>
+      <assignment macroguid="{67D48C35-0CF8-4C2E-B5A8-F89C296E4375}" original="true" shiftstate="1" backup="false" contextid="G13"/>
+      <assignment macroguid="{2B116111-8420-4F9A-A6F9-892EAE5669A2}" original="true" shiftstate="1" backup="false" contextid="G3"/>
+      <assignment macroguid="{7C602357-019D-4BAD-B33C-3606E4D3FB4A}" original="true" shiftstate="1" backup="false" contextid="G16"/>
+      <assignment macroguid="{04A9E10B-17D1-42DC-B878-05C2A6C3B7CD}" original="true" shiftstate="1" backup="false" contextid="G17"/>
+      <assignment macroguid="{D0D2429F-8F21-4D02-9DBF-60DC8E0E1FD6}" original="true" shiftstate="1" backup="false" contextid="G6"/>
+      <assignment macroguid="{A65A77A6-B9B4-42CE-90D1-12A88B843A54}" original="true" shiftstate="1" backup="false" contextid="G20"/>
+      <assignment macroguid="{8AE557B2-4775-4BC2-9877-DD627CE43692}" original="true" shiftstate="1" backup="false" contextid="G26"/>
+      <assignment macroguid="{8AE557B2-4775-4BC2-9877-DD627CE43692}" original="true" shiftstate="1" backup="false" contextid="G27"/>
+      <assignment macroguid="{8AE557B2-4775-4BC2-9877-DD627CE43692}" original="true" shiftstate="1" backup="false" contextid="G28"/>
+      <assignment macroguid="{8AE557B2-4775-4BC2-9877-DD627CE43692}" original="true" shiftstate="1" backup="false" contextid="G29"/>
+      <assignment macroguid="{C523D567-7441-4F81-B972-07085CEB5783}" original="true" shiftstate="1" backup="false" contextid="G5"/>
+      <assignment macroguid="{710AA9E5-FB42-49DE-87E6-DDC105A5270D}" original="true" shiftstate="1" backup="false" contextid="G21"/>
+      <assignment macroguid="{25F3F2A2-B5D4-4F2D-B3FA-E02F924276FB}" original="true" shiftstate="1" backup="false" contextid="G14"/>
+      <assignment macroguid="{8B9B3E1D-9072-4B55-BA3F-B3722E9ABB14}" original="true" shiftstate="1" backup="false" contextid="G7"/>
+      <assignment macroguid="{4C4693BD-25BD-4B98-8A52-83BC39495537}" original="true" shiftstate="1" backup="false" contextid="G1"/>
+      <assignment macroguid="{38E34848-2E14-46EE-A1BF-6AFCF83F0833}" original="true" shiftstate="1" backup="false" contextid="G2"/>
+      <assignment macroguid="{B734B8B0-5F63-471B-9D92-21005E50BE83}" original="true" shiftstate="1" backup="false" contextid="G23"/>
+    </assignments>
+    <assignments devicecategory="Logitech.Gaming.Mouse.G402">
+      <assignment macroguid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}" original="true" shiftstate="1" backup="false" contextid="Button1"/>
+      <assignment macroguid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}" original="true" shiftstate="1" backup="false" contextid="Button2"/>
+      <assignment macroguid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}" original="true" shiftstate="1" backup="false" contextid="Button3"/>
+      <assignment macroguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}" original="true" shiftstate="1" backup="false" contextid="Button4"/>
+      <assignment macroguid="{8B13562D-60F2-460F-9588-8C84168C81BC}" original="true" shiftstate="1" backup="false" contextid="Button5"/>
+      <assignment macroguid="{12C9716B-4D7A-4F6F-AF20-A0369219119A}" original="true" shiftstate="1" backup="false" contextid="Button7"/>
+      <assignment macroguid="{68A1C0B2-2996-4992-9CC5-3285AC8E9740}" original="true" shiftstate="1" backup="false" contextid="Button8"/>
+      <assignment macroguid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}" original="true" shiftstate="4" backup="false" contextid="Button1"/>
+      <assignment macroguid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}" original="true" shiftstate="4" backup="false" contextid="Button2"/>
+      <assignment macroguid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}" original="true" shiftstate="4" backup="false" contextid="Button3"/>
+      <assignment macroguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}" original="true" shiftstate="4" backup="false" contextid="Button4"/>
+      <assignment macroguid="{8B13562D-60F2-460F-9588-8C84168C81BC}" original="true" shiftstate="4" backup="false" contextid="Button5"/>
+      <assignment macroguid="{12C9716B-4D7A-4F6F-AF20-A0369219119A}" original="true" shiftstate="4" backup="false" contextid="Button7"/>
+      <assignment macroguid="{68A1C0B2-2996-4992-9CC5-3285AC8E9740}" original="true" shiftstate="4" backup="false" contextid="Button8"/>
+      <assignment macroguid="{A1FEC5BC-9A8A-49C5-B085-0E2EDCEF1F55}" original="true" shiftstate="1" backup="false" contextid="Button6"/>
+    </assignments>
+    <assignments devicecategory="Logitech.Gaming.Mouse.G602">
+      <assignment macroguid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}" original="false" shiftstate="1" backup="false" contextid="Button1"/>
+      <assignment macroguid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}" original="false" shiftstate="1" backup="false" contextid="Button2"/>
+      <assignment macroguid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}" original="false" shiftstate="1" backup="false" contextid="Button3"/>
+      <assignment macroguid="{8B13562D-60F2-460F-9588-8C84168C81BC}" original="false" shiftstate="1" backup="false" contextid="Button4"/>
+      <assignment macroguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}" original="false" shiftstate="1" backup="false" contextid="Button5"/>
+      <assignment macroguid="{6D61CD2B-2B8A-403C-87FE-CD8A31BADA00}" original="false" shiftstate="1" backup="false" contextid="Button6"/>
+      <assignment macroguid="{DA1135BD-7B0F-4D82-8D71-F330E1E694D3}" original="false" shiftstate="1" backup="false" contextid="Button7"/>
+      <assignment macroguid="{B803D1AD-E6C0-407A-BC85-9FF5C50DF238}" original="false" shiftstate="1" backup="false" contextid="Button8"/>
+      <assignment macroguid="{1E9AB5F8-4163-4567-8CDA-8893614F2BCF}" original="false" shiftstate="1" backup="false" contextid="Button9"/>
+      <assignment macroguid="{68A1C0B2-2996-4992-9CC5-3285AC8E9740}" original="false" shiftstate="1" backup="false" contextid="Button10"/>
+      <assignment macroguid="{12C9716B-4D7A-4F6F-AF20-A0369219119A}" original="false" shiftstate="1" backup="false" contextid="Button11"/>
+    </assignments>
+    <assignments devicecategory="Logitech.Gaming.Mouse.G700">
+      <assignment macroguid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}" original="true" shiftstate="1" backup="false" contextid="Button1"/>
+      <assignment macroguid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}" original="true" shiftstate="1" backup="false" contextid="Button2"/>
+      <assignment macroguid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}" original="true" shiftstate="1" backup="false" contextid="Button3"/>
+      <assignment macroguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}" original="true" shiftstate="1" backup="false" contextid="Button4"/>
+      <assignment macroguid="{8B13562D-60F2-460F-9588-8C84168C81BC}" original="true" shiftstate="1" backup="false" contextid="Button5"/>
+      <assignment macroguid="{6D61CD2B-2B8A-403C-87FE-CD8A31BADA00}" original="true" shiftstate="1" backup="false" contextid="Button8"/>
+      <assignment macroguid="{12C9716B-4D7A-4F6F-AF20-A0369219119A}" original="true" shiftstate="1" backup="false" contextid="Button9"/>
+      <assignment macroguid="{68A1C0B2-2996-4992-9CC5-3285AC8E9740}" original="true" shiftstate="1" backup="false" contextid="Button10"/>
+      <assignment macroguid="{4C52B052-6795-4E0F-8EB5-F36B1E3C44C6}" original="true" shiftstate="1" backup="false" contextid="Button11"/>
+      <assignment macroguid="{75FE044D-A7AC-492D-8B75-872E6B53CDCB}" original="true" shiftstate="1" backup="false" contextid="Button12"/>
+      <assignment macroguid="{36C81D73-EBBA-48F9-8373-FA473937B6A7}" original="true" shiftstate="1" backup="false" contextid="Button13"/>
+    </assignments>
+    <pointers>
+      <pointer devicemodel="Logitech.Gaming.Mouse.G402">
+        <mode shiftstate="1">
+          <reportrate rate="1000"/>
+          <powermode value="2"/>
+          <dpitable shiftindex="0" defaultindex="2" syncxy="1">
+            <dpi enabled="1" x="400" y="400"/>
+            <dpi enabled="1" x="800" y="800"/>
+            <dpi enabled="1" x="1600" y="1600"/>
+            <dpi enabled="1" x="3200" y="3200"/>
+          </dpitable>
+          <movement acceleration="1" speed="-1"/>
+        </mode>
+      </pointer>
+      <pointer devicemodel="Logitech.Gaming.Mouse.G700s">
+        <mode shiftstate="1">
+          <reportrate rate="250"/>
+          <powermode value="2"/>
+          <dpitable shiftindex="3" defaultindex="3" syncxy="1">
+            <dpi enabled="1" x="400" y="400"/>
+            <dpi enabled="1" x="800" y="800"/>
+            <dpi enabled="1" x="1200" y="1200"/>
+            <dpi enabled="1" x="2450" y="2450"/>
+            <dpi enabled="1" x="3200" y="3200"/>
+          </dpitable>
+          <movement acceleration="1" speed="-1"/>
+        </mode>
+      </pointer>
+    </pointers>
+    <backlight devicemodel="Logitech.Gaming.LeftHandedController.G13">
+      <mode color="#ffffff" shiftstate="1"/>
+      <mode color="#ffffff" shiftstate="2"/>
+      <mode color="#ffffff" shiftstate="3"/>
+    </backlight>
+    <backlight devicemodel="Logitech.Gaming.Mouse.G602">
+      <mode color="#000000" shiftstate="1"/>
+      <mode color="#000000" shiftstate="2"/>
+      <mode color="#000000" shiftstate="3"/>
+    </backlight>
+    <backlight devicemodel="Logitech.Gaming.Keyboard.C33C">
+      <lightingsetting><![CDATA[{"Effects":{"breathing/color":"#0064ff","breathing/speed":5529,"current":"wave","cycle/speed":10561,"echo/bg/color":"#000000","echo/fg/color":"#0064ff","echo/speed":17,"fixed/color":"#0096ff","star/number":24,"star/sky/color":"#000019","star/speed":15,"star/star/color":"#ffff00","wave/direction":1,"wave/speed":2764},"PerKey":{"0x1":{"0x10":"#000000","0x11":"#000000","0x12":"#000000","0x13":"#000000","0x14":"#ff5000","0x15":"#ff5000","0x16":"#8000ff","0x17":"#ff5000","0x18":"#000000","0x19":"#000000","0x1a":"#8000ff","0x1b":"#ff5000","0x1c":"#000000","0x1d":"#ff5000","0x1e":"#ff5000","0x1f":"#ff5000","0x20":"#ff5000","0x21":"#ff5000","0x22":"#ff5000","0x23":"#ff5000","0x24":"#ff5000","0x25":"#ff5000","0x26":"#000000","0x27":"#000000","0x28":"#000000","0x29":"#000000","0x2a":"#000000","0x2b":"#000000","0x2c":"#8000ff","0x2d":"#000000","0x2e":"#000000","0x2f":"#000000","0x30":"#000000","0x31":"#000000","0x32":"#00cdff","0x33":"#000000","0x34":"#000000","0x35":"#000000","0x36":"#000000","0x37":"#000000","0x38":"#000000","0x39":"#000000","0x3a":"#ff5000","0x3b":"#ff5000","0x3c":"#000000","0x3d":"#000000","0x3e":"#000000","0x3f":"#000000","0x4":"#8000ff","0x40":"#000000","0x41":"#000000","0x42":"#000000","0x43":"#000000","0x44":"#000000","0x45":"#000000","0x46":"#000000","0x47":"#000000","0x48":"#000000","0x49":"#000000","0x4a":"#000000","0x4b":"#000000","0x4c":"#000000","0x4d":"#000000","0x4e":"#000000","0x4f":"#000000","0x5":"#000000","0x50":"#000000","0x51":"#000000","0x52":"#000000","0x53":"#000000","0x54":"#000000","0x55":"#000000","0x56":"#000000","0x57":"#000000","0x58":"#000000","0x59":"#000000","0x5a":"#000000","0x5b":"#000000","0x5c":"#000000","0x5d":"#000000","0x5e":"#000000","0x5f":"#000000","0x6":"#8000ff","0x60":"#000000","0x61":"#000000","0x62":"#000000","0x63":"#000000","0x64":"#00cdff","0x65":"#000000","0x7":"#8000ff","0x8":"#ff5000","0x87":"#00cdff","0x88":"#00cdff","0x89":"#00cdff","0x8a":"#00cdff","0x8b":"#00cdff","0x9":"#ff5000","0xa":"#ff5000","0xb":"#000000","0xc":"#000000","0xd":"#000000","0xe":"#000000","0xe0":"#ff5000","0xe1":"#8000ff","0xe2":"#00a9e0","0xe3":"#000000","0xe4":"#000000","0xe5":"#000000","0xe6":"#000000","0xe7":"#000000","0xf":"#000000"},"0x10":{"0x1":"#00a9e0","0x2":"#00a9e0"},"0x4":{"0x1":"#000000","0x2":"#000000","0x3":"#000000","0x4":"#000000","0x5":"#000000","0x6":"#000000","0x7":"#000000","0x8":"#000000","0x9":"#000000"}},"Zone":{"selectedZone":"{30662999-e987-4b9e-b89a-6cf805358fb2}","zones":{"{08e08087-33ea-4a62-8132-6b1504fd59f1}":{"color":"#00a9e0","keys":[{"id":"0xe2","type":"0x1"}],"name":"Function"},"{30662999-e987-4b9e-b89a-6cf805358fb2}":{"color":"#8000ff","keys":[{"id":"0x16","type":"0x1"},{"id":"0x2c","type":"0x1"},{"id":"0x4","type":"0x1"},{"id":"0x7","type":"0x1"},{"id":"0x1a","type":"0x1"},{"id":"0xe1","type":"0x1"},{"id":"0x6","type":"0x1"}],"name":"Movement"},"{e846efbf-89bb-4f21-b4d9-1ce21bf57768}":{"color":"#00a9e0","keys":[{"id":"0x1","type":"0x10"},{"id":"0x2","type":"0x10"}],"name":"Logo"},"{f3ed5cd1-a0d6-4764-bbed-b8f5e6dd83bc}":{"color":"#ff5000","keys":[{"id":"0x3a","type":"0x1"},{"id":"0x20","type":"0x1"},{"id":"0x3b","type":"0x1"},{"id":"0x1d","type":"0x1"},{"id":"0x8","type":"0x1"},{"id":"0x1e","type":"0x1"},{"id":"0x22","type":"0x1"},{"id":"0x23","type":"0x1"},{"id":"0xa","type":"0x1"},{"id":"0x17","type":"0x1"},{"id":"0x24","type":"0x1"},{"id":"0x25","type":"0x1"},{"id":"0x1f","type":"0x1"},{"id":"0x15","type":"0x1"},{"id":"0x14","type":"0x1"},{"id":"0xe0","type":"0x1"},{"id":"0x9","type":"0x1"},{"id":"0x21","type":"0x1"},{"id":"0x1b","type":"0x1"}],"name":"Action"}}},"current":"PerKey"}]]></lightingsetting>
+    </backlight>
+    <backlight devicemodel="Logitech.Gaming.Keyboard.G410">
+      <lightingsetting><![CDATA[{"Effects":{"breathing/color":"#0064ff","breathing/speed":5529,"current":"wave","cycle/speed":10561,"echo/bg/color":"#000000","echo/fg/color":"#0064ff","echo/speed":17,"fixed/color":"#0096ff","star/number":24,"star/sky/color":"#000019","star/speed":15,"star/star/color":"#ffff00","wave/direction":1,"wave/speed":2764},"PerKey":{"0x1":{"0x10":"#000000","0x11":"#000000","0x12":"#000000","0x13":"#000000","0x14":"#ff5000","0x15":"#ff5000","0x16":"#8000ff","0x17":"#ff5000","0x18":"#000000","0x19":"#000000","0x1a":"#8000ff","0x1b":"#ff5000","0x1c":"#000000","0x1d":"#ff5000","0x1e":"#ff5000","0x1f":"#ff5000","0x20":"#ff5000","0x21":"#ff5000","0x22":"#ff5000","0x23":"#ff5000","0x24":"#ff5000","0x25":"#ff5000","0x26":"#000000","0x27":"#000000","0x28":"#000000","0x29":"#000000","0x2a":"#000000","0x2b":"#000000","0x2c":"#8000ff","0x2d":"#000000","0x2e":"#000000","0x2f":"#000000","0x30":"#000000","0x31":"#000000","0x32":"#00cdff","0x33":"#000000","0x34":"#000000","0x35":"#000000","0x36":"#000000","0x37":"#000000","0x38":"#000000","0x39":"#000000","0x3a":"#ff5000","0x3b":"#ff5000","0x3c":"#000000","0x3d":"#000000","0x3e":"#000000","0x3f":"#000000","0x4":"#8000ff","0x40":"#000000","0x41":"#000000","0x42":"#000000","0x43":"#000000","0x44":"#000000","0x45":"#000000","0x46":"#000000","0x47":"#000000","0x48":"#000000","0x49":"#000000","0x4a":"#000000","0x4b":"#000000","0x4c":"#000000","0x4d":"#000000","0x4e":"#000000","0x4f":"#000000","0x5":"#000000","0x50":"#000000","0x51":"#000000","0x52":"#000000","0x53":"#000000","0x54":"#000000","0x55":"#000000","0x56":"#000000","0x57":"#000000","0x58":"#000000","0x59":"#000000","0x5a":"#000000","0x5b":"#000000","0x5c":"#000000","0x5d":"#000000","0x5e":"#000000","0x5f":"#000000","0x6":"#8000ff","0x60":"#000000","0x61":"#000000","0x62":"#000000","0x63":"#000000","0x64":"#00cdff","0x65":"#000000","0x7":"#8000ff","0x8":"#ff5000","0x87":"#00cdff","0x88":"#00cdff","0x89":"#00cdff","0x8a":"#00cdff","0x8b":"#00cdff","0x9":"#ff5000","0xa":"#ff5000","0xb":"#000000","0xc":"#000000","0xd":"#000000","0xe":"#000000","0xe0":"#ff5000","0xe1":"#8000ff","0xe2":"#00a9e0","0xe3":"#000000","0xe4":"#000000","0xe5":"#000000","0xe6":"#000000","0xe7":"#000000","0xf":"#000000"},"0x10":{"0x1":"#00a9e0","0x2":"#00a9e0"},"0x4":{"0x1":"#000000","0x2":"#000000","0x3":"#000000","0x4":"#000000","0x5":"#000000","0x6":"#000000","0x7":"#000000","0x8":"#000000","0x9":"#000000"}},"Zone":{"selectedZone":"{30662999-e987-4b9e-b89a-6cf805358fb2}","zones":{"{08e08087-33ea-4a62-8132-6b1504fd59f1}":{"color":"#00a9e0","keys":[{"id":"0xe2","type":"0x1"}],"name":"Function"},"{30662999-e987-4b9e-b89a-6cf805358fb2}":{"color":"#8000ff","keys":[{"id":"0x16","type":"0x1"},{"id":"0x2c","type":"0x1"},{"id":"0x4","type":"0x1"},{"id":"0x7","type":"0x1"},{"id":"0x1a","type":"0x1"},{"id":"0xe1","type":"0x1"},{"id":"0x6","type":"0x1"}],"name":"Movement"},"{e846efbf-89bb-4f21-b4d9-1ce21bf57768}":{"color":"#00a9e0","keys":[{"id":"0x1","type":"0x10"},{"id":"0x2","type":"0x10"}],"name":"Logo"},"{f3ed5cd1-a0d6-4764-bbed-b8f5e6dd83bc}":{"color":"#ff5000","keys":[{"id":"0x3a","type":"0x1"},{"id":"0x20","type":"0x1"},{"id":"0x3b","type":"0x1"},{"id":"0x1d","type":"0x1"},{"id":"0x8","type":"0x1"},{"id":"0x1e","type":"0x1"},{"id":"0x22","type":"0x1"},{"id":"0x23","type":"0x1"},{"id":"0xa","type":"0x1"},{"id":"0x17","type":"0x1"},{"id":"0x24","type":"0x1"},{"id":"0x25","type":"0x1"},{"id":"0x1f","type":"0x1"},{"id":"0x15","type":"0x1"},{"id":"0x14","type":"0x1"},{"id":"0xe0","type":"0x1"},{"id":"0x9","type":"0x1"},{"id":"0x21","type":"0x1"},{"id":"0x1b","type":"0x1"}],"name":"Action"}}},"current":"PerKey"}]]></lightingsetting>
+    </backlight>
+    <backlight devicemodel="Logitech.Gaming.Keyboard.G810">
+      <lightingsetting><![CDATA[{"Effects":{"breathing/color":"#0064ff","breathing/speed":5529,"current":"wave","cycle/speed":10561,"echo/bg/color":"#000000","echo/fg/color":"#0064ff","echo/speed":17,"fixed/color":"#0096ff","star/number":24,"star/sky/color":"#000019","star/speed":15,"star/star/color":"#ffff00","wave/direction":1,"wave/speed":2764},"PerKey":{"0x1":{"0x10":"#000000","0x11":"#000000","0x12":"#000000","0x13":"#000000","0x14":"#ff5000","0x15":"#ff5000","0x16":"#8000ff","0x17":"#ff5000","0x18":"#000000","0x19":"#000000","0x1a":"#8000ff","0x1b":"#ff5000","0x1c":"#000000","0x1d":"#ff5000","0x1e":"#ff5000","0x1f":"#ff5000","0x20":"#ff5000","0x21":"#ff5000","0x22":"#ff5000","0x23":"#ff5000","0x24":"#ff5000","0x25":"#ff5000","0x26":"#000000","0x27":"#000000","0x28":"#000000","0x29":"#000000","0x2a":"#000000","0x2b":"#000000","0x2c":"#8000ff","0x2d":"#000000","0x2e":"#000000","0x2f":"#000000","0x30":"#000000","0x31":"#000000","0x32":"#00cdff","0x33":"#000000","0x34":"#000000","0x35":"#000000","0x36":"#000000","0x37":"#000000","0x38":"#000000","0x39":"#000000","0x3a":"#ff5000","0x3b":"#ff5000","0x3c":"#000000","0x3d":"#000000","0x3e":"#000000","0x3f":"#000000","0x4":"#8000ff","0x40":"#000000","0x41":"#000000","0x42":"#000000","0x43":"#000000","0x44":"#000000","0x45":"#000000","0x46":"#000000","0x47":"#000000","0x48":"#000000","0x49":"#000000","0x4a":"#000000","0x4b":"#000000","0x4c":"#000000","0x4d":"#000000","0x4e":"#000000","0x4f":"#000000","0x5":"#000000","0x50":"#000000","0x51":"#000000","0x52":"#000000","0x53":"#000000","0x54":"#000000","0x55":"#000000","0x56":"#000000","0x57":"#000000","0x58":"#000000","0x59":"#000000","0x5a":"#000000","0x5b":"#000000","0x5c":"#000000","0x5d":"#000000","0x5e":"#000000","0x5f":"#000000","0x6":"#8000ff","0x60":"#000000","0x61":"#000000","0x62":"#000000","0x63":"#000000","0x64":"#00cdff","0x65":"#000000","0x7":"#8000ff","0x8":"#ff5000","0x87":"#00cdff","0x88":"#00cdff","0x89":"#00cdff","0x8a":"#00cdff","0x8b":"#00cdff","0x9":"#ff5000","0xa":"#ff5000","0xb":"#000000","0xc":"#000000","0xd":"#000000","0xe":"#000000","0xe0":"#ff5000","0xe1":"#8000ff","0xe2":"#00a9e0","0xe3":"#000000","0xe4":"#000000","0xe5":"#000000","0xe6":"#000000","0xe7":"#000000","0xf":"#000000"},"0x10":{"0x1":"#00a9e0","0x2":"#00a9e0"},"0x4":{"0x1":"#000000","0x2":"#000000","0x3":"#000000","0x4":"#000000","0x5":"#000000","0x6":"#000000","0x7":"#000000","0x8":"#000000","0x9":"#000000"}},"Zone":{"selectedZone":"{30662999-e987-4b9e-b89a-6cf805358fb2}","zones":{"{08e08087-33ea-4a62-8132-6b1504fd59f1}":{"color":"#00a9e0","keys":[{"id":"0xe2","type":"0x1"}],"name":"Function"},"{30662999-e987-4b9e-b89a-6cf805358fb2}":{"color":"#8000ff","keys":[{"id":"0x16","type":"0x1"},{"id":"0x2c","type":"0x1"},{"id":"0x4","type":"0x1"},{"id":"0x7","type":"0x1"},{"id":"0x1a","type":"0x1"},{"id":"0xe1","type":"0x1"},{"id":"0x6","type":"0x1"}],"name":"Movement"},"{e846efbf-89bb-4f21-b4d9-1ce21bf57768}":{"color":"#00a9e0","keys":[{"id":"0x1","type":"0x10"},{"id":"0x2","type":"0x10"}],"name":"Logo"},"{f3ed5cd1-a0d6-4764-bbed-b8f5e6dd83bc}":{"color":"#ff5000","keys":[{"id":"0x3a","type":"0x1"},{"id":"0x20","type":"0x1"},{"id":"0x3b","type":"0x1"},{"id":"0x1d","type":"0x1"},{"id":"0x8","type":"0x1"},{"id":"0x1e","type":"0x1"},{"id":"0x22","type":"0x1"},{"id":"0x23","type":"0x1"},{"id":"0xa","type":"0x1"},{"id":"0x17","type":"0x1"},{"id":"0x24","type":"0x1"},{"id":"0x25","type":"0x1"},{"id":"0x1f","type":"0x1"},{"id":"0x15","type":"0x1"},{"id":"0x14","type":"0x1"},{"id":"0xe0","type":"0x1"},{"id":"0x9","type":"0x1"},{"id":"0x21","type":"0x1"},{"id":"0x1b","type":"0x1"}],"name":"Action"}}},"current":"PerKey"}]]></lightingsetting>
+    </backlight>
+    <backlight devicemodel="Logitech.Gaming.Keyboard.G910">
+      <lightingsetting><![CDATA[{"Effects":{"breathing/color":"#0064ff","breathing/speed":5529,"current":"wave","cycle/speed":10561,"echo/bg/color":"#000000","echo/fg/color":"#0064ff","echo/speed":17,"fixed/color":"#0096ff","star/number":24,"star/sky/color":"#000019","star/speed":15,"star/star/color":"#ffff00","wave/direction":1,"wave/speed":2764},"PerKey":{"0x1":{"0x10":"#000000","0x11":"#000000","0x12":"#000000","0x13":"#000000","0x14":"#ff5000","0x15":"#ff5000","0x16":"#8000ff","0x17":"#ff5000","0x18":"#000000","0x19":"#000000","0x1a":"#8000ff","0x1b":"#ff5000","0x1c":"#000000","0x1d":"#ff5000","0x1e":"#ff5000","0x1f":"#ff5000","0x20":"#ff5000","0x21":"#ff5000","0x22":"#ff5000","0x23":"#ff5000","0x24":"#ff5000","0x25":"#ff5000","0x26":"#000000","0x27":"#000000","0x28":"#000000","0x29":"#000000","0x2a":"#000000","0x2b":"#000000","0x2c":"#8000ff","0x2d":"#000000","0x2e":"#000000","0x2f":"#000000","0x30":"#000000","0x31":"#000000","0x32":"#00cdff","0x33":"#000000","0x34":"#000000","0x35":"#000000","0x36":"#000000","0x37":"#000000","0x38":"#000000","0x39":"#000000","0x3a":"#ff5000","0x3b":"#ff5000","0x3c":"#000000","0x3d":"#000000","0x3e":"#000000","0x3f":"#000000","0x4":"#8000ff","0x40":"#000000","0x41":"#000000","0x42":"#000000","0x43":"#000000","0x44":"#000000","0x45":"#000000","0x46":"#000000","0x47":"#000000","0x48":"#000000","0x49":"#000000","0x4a":"#000000","0x4b":"#000000","0x4c":"#000000","0x4d":"#000000","0x4e":"#000000","0x4f":"#000000","0x5":"#000000","0x50":"#000000","0x51":"#000000","0x52":"#000000","0x53":"#000000","0x54":"#000000","0x55":"#000000","0x56":"#000000","0x57":"#000000","0x58":"#000000","0x59":"#000000","0x5a":"#000000","0x5b":"#000000","0x5c":"#000000","0x5d":"#000000","0x5e":"#000000","0x5f":"#000000","0x6":"#8000ff","0x60":"#000000","0x61":"#000000","0x62":"#000000","0x63":"#000000","0x64":"#00cdff","0x65":"#000000","0x7":"#8000ff","0x8":"#ff5000","0x87":"#00cdff","0x88":"#00cdff","0x89":"#00cdff","0x8a":"#00cdff","0x8b":"#00cdff","0x9":"#ff5000","0xa":"#ff5000","0xb":"#000000","0xc":"#000000","0xd":"#000000","0xe":"#000000","0xe0":"#ff5000","0xe1":"#8000ff","0xe2":"#00a9e0","0xe3":"#000000","0xe4":"#000000","0xe5":"#000000","0xe6":"#000000","0xe7":"#000000","0xf":"#000000"},"0x10":{"0x1":"#00a9e0","0x2":"#00a9e0"},"0x4":{"0x1":"#000000","0x2":"#000000","0x3":"#000000","0x4":"#000000","0x5":"#000000","0x6":"#000000","0x7":"#000000","0x8":"#000000","0x9":"#000000"}},"Zone":{"selectedZone":"{30662999-e987-4b9e-b89a-6cf805358fb2}","zones":{"{08e08087-33ea-4a62-8132-6b1504fd59f1}":{"color":"#00a9e0","keys":[{"id":"0xe2","type":"0x1"}],"name":"Function"},"{30662999-e987-4b9e-b89a-6cf805358fb2}":{"color":"#8000ff","keys":[{"id":"0x16","type":"0x1"},{"id":"0x2c","type":"0x1"},{"id":"0x4","type":"0x1"},{"id":"0x7","type":"0x1"},{"id":"0x1a","type":"0x1"},{"id":"0xe1","type":"0x1"},{"id":"0x6","type":"0x1"}],"name":"Movement"},"{e846efbf-89bb-4f21-b4d9-1ce21bf57768}":{"color":"#00a9e0","keys":[{"id":"0x1","type":"0x10"},{"id":"0x2","type":"0x10"}],"name":"Logo"},"{f3ed5cd1-a0d6-4764-bbed-b8f5e6dd83bc}":{"color":"#ff5000","keys":[{"id":"0x3a","type":"0x1"},{"id":"0x20","type":"0x1"},{"id":"0x3b","type":"0x1"},{"id":"0x1d","type":"0x1"},{"id":"0x8","type":"0x1"},{"id":"0x1e","type":"0x1"},{"id":"0x22","type":"0x1"},{"id":"0x23","type":"0x1"},{"id":"0xa","type":"0x1"},{"id":"0x17","type":"0x1"},{"id":"0x24","type":"0x1"},{"id":"0x25","type":"0x1"},{"id":"0x1f","type":"0x1"},{"id":"0x15","type":"0x1"},{"id":"0x14","type":"0x1"},{"id":"0xe0","type":"0x1"},{"id":"0x9","type":"0x1"},{"id":"0x21","type":"0x1"},{"id":"0x1b","type":"0x1"}],"name":"Action"}}},"current":"PerKey"}]]></lightingsetting>
+    </backlight>
+    <backlight devicemodel="Logitech.Gaming.Keyboard.Pro.C339">
+      <lightingsetting><![CDATA[{"Effects":{"breathing/color":"#0064ff","breathing/speed":5529,"current":"wave","cycle/speed":10561,"echo/bg/color":"#000000","echo/fg/color":"#0064ff","echo/speed":17,"fixed/color":"#0096ff","star/number":24,"star/sky/color":"#000019","star/speed":15,"star/star/color":"#ffff00","wave/direction":1,"wave/speed":2764},"PerKey":{"0x1":{"0x10":"#000000","0x11":"#000000","0x12":"#000000","0x13":"#000000","0x14":"#ff5000","0x15":"#ff5000","0x16":"#8000ff","0x17":"#ff5000","0x18":"#000000","0x19":"#000000","0x1a":"#8000ff","0x1b":"#ff5000","0x1c":"#000000","0x1d":"#ff5000","0x1e":"#ff5000","0x1f":"#ff5000","0x20":"#ff5000","0x21":"#ff5000","0x22":"#ff5000","0x23":"#ff5000","0x24":"#ff5000","0x25":"#ff5000","0x26":"#000000","0x27":"#000000","0x28":"#000000","0x29":"#000000","0x2a":"#000000","0x2b":"#000000","0x2c":"#8000ff","0x2d":"#000000","0x2e":"#000000","0x2f":"#000000","0x30":"#000000","0x31":"#000000","0x32":"#00cdff","0x33":"#000000","0x34":"#000000","0x35":"#000000","0x36":"#000000","0x37":"#000000","0x38":"#000000","0x39":"#000000","0x3a":"#ff5000","0x3b":"#ff5000","0x3c":"#000000","0x3d":"#000000","0x3e":"#000000","0x3f":"#000000","0x4":"#8000ff","0x40":"#000000","0x41":"#000000","0x42":"#000000","0x43":"#000000","0x44":"#000000","0x45":"#000000","0x46":"#000000","0x47":"#000000","0x48":"#000000","0x49":"#000000","0x4a":"#000000","0x4b":"#000000","0x4c":"#000000","0x4d":"#000000","0x4e":"#000000","0x4f":"#000000","0x5":"#000000","0x50":"#000000","0x51":"#000000","0x52":"#000000","0x53":"#000000","0x54":"#000000","0x55":"#000000","0x56":"#000000","0x57":"#000000","0x58":"#000000","0x59":"#000000","0x5a":"#000000","0x5b":"#000000","0x5c":"#000000","0x5d":"#000000","0x5e":"#000000","0x5f":"#000000","0x6":"#8000ff","0x60":"#000000","0x61":"#000000","0x62":"#000000","0x63":"#000000","0x64":"#00cdff","0x65":"#000000","0x7":"#8000ff","0x8":"#ff5000","0x87":"#00cdff","0x88":"#00cdff","0x89":"#00cdff","0x8a":"#00cdff","0x8b":"#00cdff","0x9":"#ff5000","0xa":"#ff5000","0xb":"#000000","0xc":"#000000","0xd":"#000000","0xe":"#000000","0xe0":"#ff5000","0xe1":"#8000ff","0xe2":"#00a9e0","0xe3":"#000000","0xe4":"#000000","0xe5":"#000000","0xe6":"#000000","0xe7":"#000000","0xf":"#000000"},"0x10":{"0x1":"#00a9e0","0x2":"#00a9e0"},"0x4":{"0x1":"#000000","0x2":"#000000","0x3":"#000000","0x4":"#000000","0x5":"#000000","0x6":"#000000","0x7":"#000000","0x8":"#000000","0x9":"#000000"}},"Zone":{"selectedZone":"{30662999-e987-4b9e-b89a-6cf805358fb2}","zones":{"{08e08087-33ea-4a62-8132-6b1504fd59f1}":{"color":"#00a9e0","keys":[{"id":"0xe2","type":"0x1"}],"name":"Function"},"{30662999-e987-4b9e-b89a-6cf805358fb2}":{"color":"#8000ff","keys":[{"id":"0x16","type":"0x1"},{"id":"0x2c","type":"0x1"},{"id":"0x4","type":"0x1"},{"id":"0x7","type":"0x1"},{"id":"0x1a","type":"0x1"},{"id":"0xe1","type":"0x1"},{"id":"0x6","type":"0x1"}],"name":"Movement"},"{e846efbf-89bb-4f21-b4d9-1ce21bf57768}":{"color":"#00a9e0","keys":[{"id":"0x1","type":"0x10"},{"id":"0x2","type":"0x10"}],"name":"Logo"},"{f3ed5cd1-a0d6-4764-bbed-b8f5e6dd83bc}":{"color":"#ff5000","keys":[{"id":"0x3a","type":"0x1"},{"id":"0x20","type":"0x1"},{"id":"0x3b","type":"0x1"},{"id":"0x1d","type":"0x1"},{"id":"0x8","type":"0x1"},{"id":"0x1e","type":"0x1"},{"id":"0x22","type":"0x1"},{"id":"0x23","type":"0x1"},{"id":"0xa","type":"0x1"},{"id":"0x17","type":"0x1"},{"id":"0x24","type":"0x1"},{"id":"0x25","type":"0x1"},{"id":"0x1f","type":"0x1"},{"id":"0x15","type":"0x1"},{"id":"0x14","type":"0x1"},{"id":"0xe0","type":"0x1"},{"id":"0x9","type":"0x1"},{"id":"0x21","type":"0x1"},{"id":"0x1b","type":"0x1"}],"name":"Action"}}},"current":"PerKey"}]]></lightingsetting>
+    </backlight>
+    <script>function OnEvent(event, arg)
+    OutputLogMessage("event = %s, arg = %s\n", event, arg)
+end</script>
+  </profile>
+</profiles>
