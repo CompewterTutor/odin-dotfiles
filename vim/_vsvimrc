@@ -1,0 +1,293 @@
+" VsVim looks in the following folders: HOME, VIM and USERPROFILE
+
+" TODO: close all non-pinned tabs/documents
+" TODO: show Intellisense error
+" TODO: allow moving current tab to the left/right
+" TODO: need a better way to manage and switch tabs
+" TODO: a Vim-style UI for opening a file
+" TODO: commands to move cursor to next/previous error in whole document
+" TODO: delete blank lines
+" TODO: combine the info shortcuts together again
+" TODO: figure out why reloading the vsvimrc file causes highlights
+" TODO: compare with previous
+" TODO: need better keybindings for search in project, solution and files.
+" TODO: need key to move cursor across split
+
+" I let Visual Studio handle those:
+" <C-x>
+" <A-f> Debug.StepOver to go "Forward"
+" <A-d> Debug.StepInto to go "Deeper"
+" <A-s> Debug.StepOut to "eScape"
+" <A-r> Debug.RunToCursor to "Run to cursor"
+" <A-q> Debug.SetNextStatement to "Quantum jump"
+" <A-c> Debug.Start to "Continue"
+" <A-b> Debug.ToggleBreakpoint to "set/unset Breakpoint"
+" <A-a> EditorContextMenus.CodeWindow.TestDriven.NET.RerunTests or TestExplorer.RepeatLastRun to run "Again"
+" <A-D> Debug.StepIntoSpecific for "Deeper (specific)"
+"
+" General settings
+" ----------------
+set incsearch
+set hlsearch
+set ignorecase
+set cursorline
+set backspace=indent,eol,start
+set vsvim_useeditorindent
+set vsvim_useeditordefaults
+set vsvimcaret=40
+set whichwrap=b,s,<,>,h,l   " wrap backspace and cursors correctly
+set scrolloff=5
+
+set clipboard=unnamed
+set number
+
+let mapleader=","
+inoremap jk <esc>
+
+nnoremap <Esc> :noh<CR>
+nnoremap <leader>rs :source C:\Users\hippo\_vsvimrc<CR>
+
+nnoremap <leader>vs :edit C:\Users\hippo\_vsvimrc<CR>
+nnoremap <leader>o :vsc File.OpenFile<CR>
+
+" Start/stop debugging and running
+" --------------------------------
+" t=test, d=debug test
+" sd=start debug, sc=start continue, S=Stop debug, bS=build Stop
+" nmap <Leader>tt :vsc EditorContextMenus.CodeWindow.TestDriven.NET.RerunTests<CR>
+nmap <Leader>c :vsc Debug.StopDebugging<CR> :! taskkill /FI "IMAGENAME eq ProcessInvocation86.exe" /F <CR>
+nmap <Leader>t :vsc TestExplorer.ShowTestExplorer<CR> :vsc TestExplorer.RunAllTestsInContext<CR>
+nmap <Leader>d :vsc TestExplorer.ShowTestExplorer<CR> :vsc TestExplorer.DebugAllTestsInContext<CR>
+nmap <Leader>f :vsc TestExplorer.ShowTestExplorer<CR> :vsc TestExplorer.RunFailedTests<CR>
+"nmap <Leader>B :vsc EditorContextMenus.CodeWindow.TestDriven.NET.Build<CR>
+nmap <Leader>B :vsc Build.BuildSelection<CR>
+nmap <C-B> :vsc Build.BuildSelection<CR>
+nmap <Leader>S :vsc Build.Cancel<CR> :vsc Debug.StopDebugging<CR> :vsc Tools.TestDriven.NET.Abort<CR> :vsc TestExplorer.CancelTests<CR>
+nmap <Leader>sd :vsc Debug.Start<CR>
+nmap <Leader>sc :vsc Debug.StartWithoutDebugging<CR>
+
+" While debugging
+" ---------------
+" StepOver, StepInto, StepOut, etc are configured directly in VS to Alt- combinations
+
+" Show windows
+" ------------
+map <Leader>wa :vsc Debug.Autos<CR>
+map <Leader>wm :vsc View.BookmarkWindow<CR>
+"map <Leader>wc :vsc View.CommandWindow<CR>
+map <Leader>wc :vsc Debug.CallStack<CR>
+map <Leader>wd :vsc Team.Git.CompareWithUnmodified<CR>
+map <Leader>we :vsc Debug.ExceptionSettings<CR>
+map <Leader>wf :vsc View.FindResults1<CR>
+map <Leader>wF :vsc View.FullScreen<CR>
+map <Leader>WF :vsc View.FullScreen<CR>
+map <Leader>wg :vsc Team.Git.GoToGitChanges<CR>
+map <Leader>wp :vsc Team.Git.CompareWithPrevious<CR>
+map <Leader>wh :vsc Team.Git.ViewHistory<CR>
+"map <Leader>wh :vsc Window.AutoHideAll<CR>
+"map <Leader>wH :vsc Window.NextToolWindow<CR>
+map <Leader>wi :vsc Debug.Immediate<CR>
+map <Leader>wk :vsc Tools.CustomizeKeyboard<CR>
+map <Leader>wl :vsc Debug.Locals<CR>
+" map <Leader>wm :vsc Debug.Modules<CR>
+map <Leader>wo :vsc View.Output<CR>
+map <Leader>wb :vsc Debug.Breakpoints<CR>
+map <Leader>wr :vsc View.FindSymbolResults<CR>
+map <Leader>ws :vsc View.SolutionExplorer<CR> :vsc SolutionExplorer.SyncWithActiveDocument<CR>
+map <Leader>s :vsc View.SolutionExplorer<CR> :vsc SolutionExplorer.SyncWithActiveDocument<CR>
+map <Leader>wt :vsc TestExplorer.ShowTestExplorer<CR>
+map <Leader>wv :vsc VsVim.Options<CR>
+map <Leader>ww :vsc Window.Windows<CR>
+
+" Tools.Options, Debug.OptionsAndSettings
+" Folding
+" -------
+" Use za to fold
+" zc and zo to close and open folds
+" zC to close all.
+" But built-in zO to open all doesn't work.
+map zm :vsc Edit.CollapsetoDefinitions<CR>
+" noremap zC :vsc Edit.CollapseAllOutlining <return>
+noremap zO :vsc Edit.ExpandAllOutlining <return>
+" noremap zt :vsc Edit.ToggleOutliningExpansion <return>
+" noremap zT :vsc Edit.ToggleAllOutlining <return>
+" noremap zc :vsc Edit.CollapseCurrentRegion <return>
+" noremap zo :vsc Edit.ExpandCurrentRegion <return>
+" noremap zd :vsc Edit.CollapsetoDefinitions <return>
+" noremap zb :vsc Edit.CollapseBlockcurrentblock <return>
+" noremap zB :vsc Edit.CollapseAllincurrentblock <return>
+
+" Navigation
+" ----------
+nmap gb :vsc View.NavigateBackward<CR>
+nmap gf :vsc View.NavigateForward<CR>
+
+" Next and previous tab
+" TODO: there is a bug when using C-l or C-h in insert mode
+" Note we give up Visual Studio's default (replace) for Ctrl+H
+map <C-l> :vsc Window.NextTab<CR>
+map <C-h> :vsc Window.PreviousTab<CR>
+
+" Close tab
+map <C-w> :vsc Window.CloseDocumentWindow<CR>
+
+map gk :vsc Edit.PreviousMethod<CR>
+map gj :vsc Edit.NextMethod<CR>
+
+" Ensure Visual Studio defaults
+"noremap <C-f> :vsc Edit.Find<CR>
+"noremap <C-a> :vsc Edit.SelectAll<CR>
+"noremap <C-c> :vsc Edit.Copy<CR>
+"noremap <C-v> :vsc Edit.Paste<CR>
+
+" It's also useful to bind those keys in VS as well
+" noremap <C-n> :vsc Edit.FindNext<CR>
+" noremap <C-p> :vsc Edit.FindPrevious<CR>
+
+" gd goes to definition by default
+map gr :vsc Edit.FindAllReferences<CR>
+map gi :vsc Edit.GoToImplementation<CR>
+"map gp :vsc Edit.PeekDefinition<CR>
+
+map <Leader><Leader> :vsc Diff.NextDifference<CR>
+map <Leader>. :vsc Diff.PreviousDifference<CR>
+
+map gm :vsc Edit.NextBookmarkInDocument<CR>
+"map <Leader>gm :vsc Edit.NextBookmark<CR>
+map gM :vsc Edit.PreviousBookmarkInDocument<CR>
+"map <Leader>gM :vsc Edit.PreviousBookmark<CR>
+
+map ge :vsc Edit.NextErrorInView<CR>
+map gE :vsc Edit.PreviousErrorInView<CR>
+
+" keep search results in the center of the screen
+nnoremap n nzz
+nnoremap N Nzz
+
+" Various GUI features
+" --------------------
+map <Leader>m :vsc Edit.ToggleBookmark<CR>
+
+map <Leader>b :vsc Debug.ToggleBreakpoint<CR>
+" map <Leader>teb :vsc Debug.EnableBreakpoint<CR>
+
+" Keep tab
+map <Leader>k :vsc Window.PinTab<CR>
+" Open tab
+map <Leader>ot :vsc Window.KeepTabOpen<CR>
+
+"Show definiton
+" map <Leader>p :vsc Edit.PeekDefinition<CR>
+" Show parameter and quick info
+map <Leader>sp :vsc Edit.ParameterInfo<CR>
+map <Leader>p :vsc Edit.ParameterInfo<CR>
+map <Leader>si :vsc Edit.QuickInfo<CR>
+map <Leader>i :vsc Edit.QuickInfo<CR>
+" Yank parameter info
+" map <Leader>yp :vsc Edit.CopyParameterTip<CR>
+
+" Making edits
+" ------------
+" add empty lines with no insert mode
+nmap <S-enter> O<Esc>
+nmap <enter> o<Esc>
+
+nnoremap <S-space> i<space><Esc>
+
+" delete char without yank
+noremap x "_x
+noremap X "_X
+
+" H/L is more natural than 0/$
+map H ^
+map L $
+
+"copy line without CR
+noremap Y ^y$
+
+noremap + :vsc Edit.CommentSelection <return>
+noremap - :vsc Edit.UncommentSelection <return>
+
+" Delete trailing spaces
+nnoremap <Leader>dw :%s/\s\+$//<CR>:nohl<CR>
+vnoremap <Leader>dw :s/\s\+$//<CR>:nohl<CR>
+
+nnoremap == :vsc Edit.FormatDocument <CR>
+vnoremap == :vsc Edit.FormatSelection <CR>
+
+" reselect visual block after indent
+vnoremap < <gv
+vnoremap > >gv
+
+vnoremap <c-w> :vsc Edit.SurroundWith<CR>
+vnoremap <Leader>w :vsc Edit.SurroundWith<CR>
+
+" -------------------------------------------------------------------------------------------------------------------
+
+" Edit.ToggleWordWrap
+
+" Edit.GoToFindResults1Location
+" Edit.GoToFindResults1NextLocation
+" Edit.GoToFindResults1PrevLocation
+" Edit.GoToFindResults2Location
+" Edit.GoToFindResults2NextLocation
+" Edit.GoToFindResults2PrevLocation
+
+" Edit.BreakLine
+
+"Team.Git.ViewHistory
+"Debug.QuickWatch
+
+" TestDriven.NET.RerunWithDefault
+" TestDriven.NET.RerunWithDebugger
+" TestDriven.NET.NewProc
+" Edit.HideSelection makes an outline of the selection
+
+" Delete extraneous blank lines
+":nnoremap <silent> <Leader>ds :g/^$/,/./-j<CR>:nohl<CR>
+":nnoremap <silent> <Leader>dd :let _s=@/<CR>:%s/\s\+$//e<CR>:let @/=_s<CR>:nohl<CR>
+
+"nmap zX :vsc Edit.UndoClose<CR>
+"nnoremap <leader>B :vsc Build.BuildSolution<CR>
+
+"nmap <leader>s :vsc Debug.Start<CR>
+"nmap <leader>bd :vsc Debug.DisableAllBreakpoints<CR>
+"nmap <leader>be :vsc Debug.EnableAllBreakpoints<CR>
+
+
+" Build --> Ctrl-Shift-B
+" Debug.DetachAll --> maybe later
+" DebuggerContextMenus.ProcessesWindow.DetachProcess
+" DebuggerContextMenus.ProcessesWindow.TerminateProcess
+
+
+" Found many vsvimrc files on github:
+" https://github.com/jaredpar/VsVim/wiki/Settings-Reference
+" https://github.com/aburok/mysettings/blob/master/Vim/_vsvimrc
+" https://github.com/aburok/mysettings/blob/master/VisualStudio/vscommands.txt
+" https://github.com/pwnb0t/dotfiles/blob/master/.vsvimrc
+" https://github.com/BruceKpersonal/.vim/blob/master/.vsvimrc
+" https://github.com/bab491/vimscripts/blob/master/_vsvimrc
+" https://github.com/psibar/dotfiles/blob/master/vim/_vsvimrc
+" https://github.com/cakn/vimfiles/blob/master/_vsvimrc
+" https://github.com/potz/dotfiles/blob/401ff11fafdb80c927387a471cacc5a5a2b53c28/.vsvimrc
+" https://github.com/StanislawSwierc/Profile/blob/d268cc58366fa8d6a347b3e98bd4daff8257d212/_vsvimrc
+
+" Built-in VS commands and shortcuts
+" http://weblogs.asp.net/scottgu/visual-studio-2010-keyboard-shortcuts
+
+" VS-QuickNavigation extension
+" (https://visualstudiogallery.msdn.microsoft.com/229dde61-7402-4c6c-b440-bfc95102f755)
+" nnoremap <leader>f :vsc View.QuickFile<CR>
+
+" noremap <leader>ru :vsc Edit.RemoveAndSort <return>
+
+" Fold like ^m^o, expand all #regions and leave cursor in the current region
+" nnoremap z1 j?# region<cr>mzzMNNNNNNNNNN'z/ÿÿÿ<cr>zz
+" Fold like z1, but only expand method regions
+" nnoremap z2 j?# region.*Methods<cr>mzzMNNNNNNNNNN'z/ÿÿÿ<cr>zz
+
+" Fold like z1, but also return cursor to last position
+" nnoremap z8 mzzMgg/# region<cr>nnnnnnnnnn`z/ÿÿÿ<cr>zz
+" Fold like ^m^o^m^m, but return cursor to last position
+" nnoremap z9 mzzM`zzz
