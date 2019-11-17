@@ -8,7 +8,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 "VIM customizations
 " General Config {
 
-set digraph "enable input of special characters by a digraph, ex a -> ^H -> : => umlaut a
+"set digraph "enable input of special characters by a digraph, ex a -> ^H -> : => umlaut a
 
 set hid "Allow hiding buffers even though they contain mods which haven't been written to associated file
 
@@ -49,10 +49,31 @@ set expandtab
 set path+=**
 " }
 
+" Buffers {
+"This allowes for buffers to be hidden when they've been modified.
+set hidden
+
+"to open a new empty buffer
+" this replaces tabnew 
+nmap <leader>T :enew<cr>
+
+"move to next buffer
+nmap <leader>l :bnext<CR>
+"previous buffer
+nmap <leader>h :bprevious<CR>
+
+"Close the current buffer and move to the previous one
+" replicates idea of closing a tab
+nmap <leader>bq :bp <BAR> bd #<CR>
+"buffer list
+nmap <leader>bl :ls<CR>
+
+" }
+
 au BufNewFile,BufRead *.py
 		\ set tabstop=4
 		\ set softtabstop=4
-		\ set shitwidth=4
+		\ set shiftwidth=4
 		\ set textwidth=79
 		\ set expandtab
 		\ set autoindent
@@ -134,7 +155,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-fugitive'
-
+Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'Valloric/YouCompleteMe'
 "Plugin 'scrooloose/syntastic'
 Plugin 'vim-syntastic/vim-syntastic'
@@ -249,6 +270,11 @@ nnoremap <silent> <C-l> :nohl<CR><C-l>
 set background=dark
 "allow for powerline fonts
 let g:airline_powerline_fonts=1
+" enable airline list of buffers
+let g:airline#extensions#tabline#enabled = 1
+" show just the filename
+let g:airline#extensions#tabline#fnamemod = ":t"
+
 "Python VirtualEnv handling
 "py << EOF
 "import os

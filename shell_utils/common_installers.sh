@@ -31,7 +31,6 @@ install_package ()
 	fi
 }
 
-
 install_wp-cli () {
     $(curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar)
     `php wp-cli.phar --info`
@@ -81,6 +80,19 @@ install_goaccess () {
     tar -xzvf ~/goaccess-1.3.tar.gz
     cd ~/goaccess-1.3
     ./configure --enable-utf8 --enable-geoip=legacy
+}
+
+install_wordpress() {
+
+    #dependencies: gsql php7.2-curl php7.2-cli php-fpm
+    #sudo apt install -y php7.2 php7.2-common php7.2-mysql php7.2-json php7.2-mbstring php7.2-gd php7.2-sqlite3 php7.2-pgsl php7.2-curl php7.2-cli php-fpm php-xdebug php-redis php-pear php-dev php-sass php-memcached php-mongdb libmcrypt-dev
+
+    sudo pecl channel-update pecl.php.net
+    sudo pecl install mcrypt
+
+
+    #change php ini options
+    #add extension=mcrypt.so
 
 }
 
@@ -91,3 +103,27 @@ install_golang () {
 install_rust () {
     curl https://sh.rustup.rs -sSf | sh
 }
+install_redis () {
+    sudo apt install redis-server
+}
+
+install_composer () {
+
+    wget https://getcomposer.org/installer
+    php installer
+    sudo mv composer.phar /usr/local/bin/composer
+}
+
+install laravel () {
+    composer global require "laravel/installer"
+}
+
+install_enscriptem () {
+    git clone https://github.com/emscripten-core/emsdk.git && cd emsdk
+    git pull
+    ./emsdk install latest
+    ./emsdk activate latest
+
+    source ./emsdk_env.sh
+}
+
